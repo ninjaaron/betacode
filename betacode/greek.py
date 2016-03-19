@@ -78,7 +78,3 @@ def main():
     from sys import argv
     input_ = ''.join(argv[1:]).lower()
     print(decode_long(input_))
-
-
-if __name__ == '__main__':
-    main()

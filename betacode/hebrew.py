@@ -46,6 +46,3 @@ def main():
     fixed = decode(betacode)
     fixed = ud.normalize('NFC', fixed)
     print(fixed)
-
-if __name__ == '__main__':
-    main()

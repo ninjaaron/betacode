@@ -9,4 +9,4 @@ import click
 @click.argument('filename', default='-', type=click.File('r'))
 def main(h, filename):
     decode = hebrew.decode if h else greek.decode
-    click.echo(decode(filename.read()))
+    click.echo(decode(filename.read().rstrip()))

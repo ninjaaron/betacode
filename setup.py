@@ -9,5 +9,6 @@ setup(
     author='Aaron Christianson',
     author_email='ninjaaron@gmail.com',
     keywords='betacode hebrew greek catss tlg',
-    packages = ['betacode'],
+    packages=['betacode'],
+    install_requires=['click'],
     entry_points={'console_scripts': 'betacode=betacode.script:main'},)
