@@ -8,4 +8,4 @@ faster, the `old_greek` module, which uses a prefix tree, will catch
 certain types of betacode errors that the new decoder does not, which
 can be helpful if you suspect you are dealing with bad betacode.
 '''
-from betacode import greek, hebrew, old_greek
+from betacode import greek, hebrew
